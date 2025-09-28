@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Jurnal01 {
 
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         int tabunganAwal = 0;
         int tabunganMasuk = 0;
         int hariMenabung = 0;
