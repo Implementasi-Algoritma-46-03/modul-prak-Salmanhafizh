@@ -2,13 +2,18 @@ import java.util.Scanner;
 
 public class TP03 {
 
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
+        int jumlahPermen = 0;
+        int jumlahTeman = 0;
+        int hasilBagi = 0;
+        int sisaBagi = 0;
+
         Scanner scanner = new Scanner(System.in);
-        int jumlahPermen = scanner.nextInt();
-        int teman = scanner.nextInt();
-        teman += 1; // ditambah 1 untuk diri sendiri juga
-        int hasilBagi = jumlahPermen / teman;
-        int sisaBagi = jumlahPermen % teman;
+        jumlahPermen += scanner.nextInt();
+        jumlahTeman += scanner.nextInt();
+        jumlahTeman += 1; // Tambah 1 untuk diri sendiri juga
+        hasilBagi += jumlahPermen / jumlahTeman;
+        sisaBagi += jumlahPermen % jumlahTeman;
         System.out.println(hasilBagi);
         System.out.println(sisaBagi);
         scanner.close();

@@ -2,13 +2,18 @@ import java.util.Scanner;
 
 public class TP02 {
 
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
+        String namaPembeli;
+        int jumlahBelanjaan = 0;
+        int hargaBelanjaan = 0;
+        int totalBelanjaan = 0;
+
         Scanner scanner = new Scanner(System.in);
-        String name = scanner.next();
-        int amount = scanner.nextInt();
-        int price = scanner.nextInt();
-        int total = amount * price;
-        System.out.println("Hi, " + name + ". total belanja adalah " + total + " rupiah.");
+        namaPembeli = scanner.next();
+        jumlahBelanjaan += scanner.nextInt();
+        hargaBelanjaan += scanner.nextInt();
+        totalBelanjaan += jumlahBelanjaan * hargaBelanjaan;
+        System.out.println("Hi " + namaPembeli + ", total belanja adalah " + totalBelanjaan + " rupiah.");
         scanner.close();
     }
 }

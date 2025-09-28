@@ -1,6 +1,19 @@
+import java.util.Scanner;
+
 public class Jurnal01 {
 
     public static void main(final String[] args) {
-        // Kerjakan soalnya di sini
+        int tabunganAwal = 0;
+        int tabunganMasuk = 0;
+        int hariMenabung = 0;
+        int hasilTabungan = 0;
+        
+        Scanner scanner = new Scanner(System.in);
+        tabunganAwal += scanner.nextInt();
+        tabunganMasuk += scanner.nextInt();
+        hariMenabung += scanner.nextInt();
+        hasilTabungan += tabunganAwal + (tabunganMasuk * hariMenabung);
+        System.out.println(hasilTabungan);
+        scanner.close();
     }
 }

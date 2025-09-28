@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: 
+Nama: Salman Hafizh Nashirulhaq
 
-NIM : 
+NIM : 607062530013
 
 ## Instruksi
 

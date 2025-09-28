@@ -3,12 +3,17 @@ import java.util.Scanner;
 public class TP01 {
 
     public static void main(final String[] args) {
+        int tabunganAwal = 0;
+        int tabunganMasuk = 0;
+        int hariMenabung = 0;
+        int hasilTabungan = 0;
+        
         Scanner scanner = new Scanner(System.in);
-        int awal = scanner.nextInt();
-        int tabung = scanner.nextInt();
-        int hari = scanner.nextInt();
-        int hasil = awal + (tabung * hari);
-        System.out.println(hasil);
+        tabunganAwal = scanner.nextInt();
+        tabunganMasuk = scanner.nextInt();
+        hariMenabung = scanner.nextInt();
+        hasilTabungan = tabunganAwal + (tabunganMasuk * hariMenabung);
+        System.out.println(hasilTabungan);
         scanner.close();
     }
 }
