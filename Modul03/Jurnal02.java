@@ -3,17 +3,12 @@ import java.util.Scanner;
 public class Jurnal02 {
 
     public static void main(String[] args) {
-        String namaPembeli;
-        int jumlahBelanjaan = 0;
-        int hargaBelanjaan = 0;
-        int totalBelanjaan = 0;
-
         Scanner scanner = new Scanner(System.in);
-        namaPembeli = scanner.next();
-        jumlahBelanjaan += scanner.nextInt();
-        hargaBelanjaan += scanner.nextInt();
-        totalBelanjaan += jumlahBelanjaan * hargaBelanjaan;
-        System.out.println("Hi " + namaPembeli + ", total belanja adalah " + totalBelanjaan + " rupiah.");
+        double nilaiPertama = scanner.nextInt();
+        double nilaiKedua = scanner.nextInt();
+        double nilaiKetiga = scanner.nextInt();
+        double rataNilai = ((nilaiPertama + nilaiKedua + nilaiKetiga) / 3);
+        System.out.printf("Nilai rata-rata: %.2f\n", rataNilai);
         scanner.close();
     }
 }
