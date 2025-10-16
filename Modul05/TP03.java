@@ -23,15 +23,15 @@ public class TP03 {
                 double miring = Math.sqrt(alas * alas + tinggi * tinggi);
                 double hitungMiring = miring;
                 miring = (int) miring;
-                double sisaMiring =  hitungMiring - miring;
+                double sisaMiring = hitungMiring - miring;
                 if (sisaMiring >= 0.5) {
 
-                    hitungMiring =  (int) hitungMiring + 1;
+                    hitungMiring = (int) hitungMiring + 1;
                 }
-                System.out.println(((alas * tinggi) / 2) + " " + ((int)(alas + tinggi + hitungMiring)));
+                System.out.println(((alas * tinggi) / 2) + " " + ((int) (alas + tinggi + hitungMiring)));
                 break;
 
-            case "Lingkaran":   
+            case "Lingkaran":
                 int diameter = scanner.nextInt();
                 double r = diameter / 2.0;
                 double luas = 3.14 * r * r;
@@ -39,6 +39,10 @@ public class TP03 {
                 System.out.printf("%.2f %.2f\n", luas, keliling);
                 break;
         }
+        
+
+
+        
         scanner.close();
     }
 }
