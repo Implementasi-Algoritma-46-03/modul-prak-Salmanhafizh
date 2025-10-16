@@ -29,7 +29,7 @@ public class TP01 {
                 System.out.println("juillet");
                 break;
             case "agustus":
-                System.out.println("août");
+                System.out.println("aout");
                 break;
             case "september":
                 System.out.println("septembre");
@@ -44,10 +44,8 @@ public class TP01 {
                 System.out.println("decembre");
                 break;
             default:
-                System.out.println("Salah");
                 break;
         }
         scanner.close();
-        // Kerjakan soalnya di sini
     }
 }
