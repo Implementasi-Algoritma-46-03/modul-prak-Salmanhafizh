@@ -20,8 +20,15 @@ public class TP03 {
             case "Segitiga":
                 int alas = scanner.nextInt();
                 int tinggi = scanner.nextInt();
-                int miring = (int) Math.sqrt(alas * alas + tinggi * tinggi);
-                System.out.println(((alas * tinggi) / 2) + " " + (alas + tinggi + miring));
+                double miring = Math.sqrt(alas * alas + tinggi * tinggi);
+                double hitungMiring = miring;
+                miring = (int) miring;
+                double sisaMiring =  hitungMiring - miring;
+                if (sisaMiring >= 0.5) {
+
+                    hitungMiring = (int) hitungMiring + 1;
+                }
+                System.out.println(((alas * tinggi) / 2) + " " + ((int)(alas + tinggi + hitungMiring)));
                 break;
 
             case "Lingkaran":   
