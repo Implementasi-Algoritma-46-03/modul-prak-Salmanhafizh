@@ -41,7 +41,7 @@ public class TP01 {
                 System.out.println("novembre");
                 break;
             case "desember":
-                System.out.println("décembre");
+                System.out.println("decembre");
                 break;
             default:
                 System.out.println("Salah");

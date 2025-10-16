@@ -23,7 +23,7 @@ public class Jurnal02 {
             case "Kamis":
                 nomorHari = 4;
                 break;
-            case "Jumat":
+            case "Jum'at":
                 nomorHari = 5;
                 break;
             case "Sabtu":
@@ -52,7 +52,7 @@ public class Jurnal02 {
                 namaHariDiDalam = "Kamis";
                 break;
             case 5:
-                namaHariDiDalam = "Jumat";
+                namaHariDiDalam = "Jum'at";
                 break;
             case 6:
                 namaHariDiDalam = "Sabtu";

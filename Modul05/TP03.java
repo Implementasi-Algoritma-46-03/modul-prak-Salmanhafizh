@@ -29,7 +29,7 @@ public class TP03 {
                 double r = diameter / 2.0;
                 double luas = 3.14 * r * r;
                 double keliling = 3.14 * diameter;
-                System.out.printf("%.0f %.0f\n", luas, keliling);
+                System.out.printf("%.2f %.2f\n", luas, keliling);
                 break;
         }
         scanner.close();
