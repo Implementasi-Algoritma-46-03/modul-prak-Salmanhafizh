@@ -10,7 +10,7 @@
       "timeout": 10,
       "points": 5
     },
-	{
+    {
       "name": "Jurnal01b",
       "setup": "javac Modul05/Jurnal01.java",
       "run": "java -cp Modul05 Jurnal01",
@@ -20,7 +20,7 @@
       "timeout": 10,
       "points": 5
     },
-	  {
+    {
       "name": "Jurnal02a",
       "setup": "javac Modul05/Jurnal02.java",
       "run": "java -cp Modul05 Jurnal02",
@@ -30,7 +30,7 @@
       "timeout": 10,
       "points": 5
     },
-	{
+    {
       "name": "Jurnal02b",
       "setup": "javac Modul05/Jurnal02.java",
       "run": "java -cp Modul05 Jurnal02",
@@ -60,7 +60,7 @@
       "timeout": 10,
       "points": 5
     },
-	{
+    {
       "name": "Jurnal03a",
       "setup": "javac Modul05/Jurnal03.java",
       "run": "java -cp Modul05 Jurnal03",
@@ -70,7 +70,7 @@
       "timeout": 10,
       "points": 5
     },
-	{
+    {
       "name": "Jurnal03b",
       "setup": "javac Modul05/Jurnal03.java",
       "run": "java -cp Modul05 Jurnal03",
@@ -80,7 +80,7 @@
       "timeout": 10,
       "points": 5
     },
-	{
+    {
       "name": "Jurnal03c",
       "setup": "javac Modul05/Jurnal03.java",
       "run": "java -cp Modul05 Jurnal03",
@@ -90,7 +90,7 @@
       "timeout": 10,
       "points": 5
     },
-	{
+    {
       "name": "Jurnal03d",
       "setup": "javac Modul05/Jurnal03.java",
       "run": "java -cp Modul05 Jurnal03",
@@ -189,7 +189,7 @@
       "comparison": "included",
       "timeout": 10,
       "points": 3
-    },  	  
+    },
     {
       "name": "TP02a",
       "setup": "javac Modul05/TP02.java",
@@ -250,7 +250,7 @@
       "timeout": 10,
       "points": 0
     },
-	{
+    {
       "name": "TP03c",
       "setup": "javac Modul05/TP03.java",
       "run": "java -cp Modul05 TP03",
@@ -276,7 +276,6 @@
       "run": "java -cp Modul05 TP03",
       "input": "Persegi\n5",
       "output": "25 20",
-      "comparison": "included",
       "timeout": 10,
       "points": 3
     },

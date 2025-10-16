@@ -26,7 +26,7 @@ public class TP03 {
                 double sisaMiring =  hitungMiring - miring;
                 if (sisaMiring >= 0.5) {
 
-                    hitungMiring = (int) hitungMiring + 1;
+                    hitungMiring =  (int) hitungMiring + 1;
                 }
                 System.out.println(((alas * tinggi) / 2) + " " + ((int)(alas + tinggi + hitungMiring)));
                 break;
