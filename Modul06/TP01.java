@@ -24,12 +24,14 @@ public class TP01 {
         double fahrenheit2 = scanner.nextDouble();
         double fahrenheit3 = scanner.nextDouble();
 
+        System.out.print("Celcius: ");
         printResultC(fahrenheit1);
         System.out.print(" ");
         printResultC(fahrenheit2);
         System.out.print(" ");
         printResultC(fahrenheit3);
         System.out.print("\n");
+        System.out.print("Reamur: ");
         printResultR(fahrenheit1);
         System.out.print(" ");
         printResultR(fahrenheit2);
