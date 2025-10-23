@@ -8,26 +8,42 @@ public class Jurnal02 {
         String lirikBaru = "";
         switch (sisaLirik) {
             case 0:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "A");
                 lirikBaru = lirik.replaceAll("[aiueo]", "a");
                 break;
             case 1:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "E");
                 lirikBaru = lirik.replaceAll("[aiueo]", "e");
                 break;
             case 2:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "I");
                 lirikBaru = lirik.replaceAll("[aiueo]", "i");
                 break;
             case 3:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "O");
                 lirikBaru = lirik.replaceAll("[aiueo]", "o");
                 break;
             case 4:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "U");
                 lirikBaru = lirik.replaceAll("[aiueo]", "u");
                 break;
 
+            default:
+                break;
+        }
+
+        switch (sisaLirik) {
+            case 0:
+                lirikBaru = lirik.replaceAll("[AIUEO]", "A");
+                break;
+            case 1:
+                lirikBaru = lirik.replaceAll("[AIUEO]", "E");
+                break;
+            case 2:
+                lirikBaru = lirik.replaceAll("[AIUEO]", "I");
+                break;
+            case 3:
+                lirikBaru = lirik.replaceAll("[AIUEO]", "O");
+                break;
+            case 4:
+                lirikBaru = lirik.replaceAll("[AIUEO]", "U");
+                break;
+                
             default:
                 break;
         }
@@ -36,8 +52,9 @@ public class Jurnal02 {
     public static void main(final String[] args) {
         Scanner scanner = new Scanner(System.in);
         String lirik = scanner.nextLine();
+        String hasil = ubahLirik(lirik);
 
-        System.out.print(ubahLirik(lirik));
+        System.out.print(hasil);
 
         scanner.close();
     }
