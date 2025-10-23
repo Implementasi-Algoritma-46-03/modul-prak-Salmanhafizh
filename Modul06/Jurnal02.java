@@ -8,24 +8,19 @@ public class Jurnal02 {
         String lirikBaru = "";
         switch (sisaLirik) {
             case 0:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "A");
-                lirikBaru = lirik.replaceAll("[aiueo]", "a");
+                lirikBaru = lirik.replaceAll("[AIUEOaiueo]", "a");
                 break;
             case 1:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "E");
-                lirikBaru = lirik.replaceAll("[aiueo]", "e");
+                lirikBaru = lirik.replaceAll("[AIUEOaiueo]", "e");
                 break;
             case 2:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "I");
-                lirikBaru = lirik.replaceAll("[aiueo]", "i");
+                lirikBaru = lirik.replaceAll("[AIUEOaiueo]", "i");
                 break;
             case 3:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "O");
-                lirikBaru = lirik.replaceAll("[aiueo]", "o");
+                lirikBaru = lirik.replaceAll("[AIUEOaiueo]", "o");
                 break;
             case 4:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "U");
-                lirikBaru = lirik.replaceAll("[aiueo]", "u");
+                lirikBaru = lirik.replaceAll("[AIUEOaiueo]", "u");
                 break;
 
             default:
