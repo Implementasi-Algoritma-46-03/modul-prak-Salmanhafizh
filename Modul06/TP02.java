@@ -1,6 +1,17 @@
+import java.util.Scanner;
+
 public class TP02 {
 
-    public static void main(final String[] args) {
-        // Kerjakan soalnya di sini
+    private static void hilangkanString(String input) {
+        System.out.println(input.replaceAll("[aiueoAIUEO]", ""));
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.next();
+
+        hilangkanString(input);
+        
+        scanner.close();
     }
 }
