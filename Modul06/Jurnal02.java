@@ -9,23 +9,23 @@ public class Jurnal02 {
         switch (sisaLirik) {
             case 0:
                 lirikBaru = lirik.replaceAll("[IUEO]", "A");
-                lirikBaru = lirik.replaceAll("[iueo]", "a");
+                lirikBaru = lirikBaru.replaceAll("[iueo]", "a");
                 break;
             case 1:
                 lirikBaru = lirik.replaceAll("[AIUO]", "E");
-                lirikBaru = lirik.replaceAll("[aiuo]", "e");
+                lirikBaru = lirikBaru.replaceAll("[aiuo]", "e");
                 break;
             case 2:
                 lirikBaru = lirik.replaceAll("[AUEO]", "I");
-                lirikBaru = lirik.replaceAll("[aueo]", "i");
+                lirikBaru = lirikBaru.replaceAll("[aueo]", "i");
                 break;
             case 3:
                 lirikBaru = lirik.replaceAll("[AIUE]", "O");
-                lirikBaru = lirik.replaceAll("[aiue]", "o");
+                lirikBaru = lirikBaru.replaceAll("[aiue]", "o");
                 break;
             case 4:
                 lirikBaru = lirik.replaceAll("[AIEO]", "U");
-                lirikBaru = lirik.replaceAll("[aieo]", "u");
+                lirikBaru = lirikBaru.replaceAll("[aieo]", "u");
                 break;
 
             default:
