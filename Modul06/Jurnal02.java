@@ -8,23 +8,23 @@ public class Jurnal02 {
         String lirikBaru = "";
         switch (sisaLirik) {
             case 0:
-                lirikBaru = lirik.replaceAll("[aiueo]", "a");
+                lirikBaru = lirik.replaceAll("[iueo]", "a");
                 break;
             case 1:
                 // lirikBaru = lirik.replaceAll("[AIUEO]", "E");
-                lirikBaru = lirik.replaceAll("[aiueo]", "e");
+                lirikBaru = lirik.replaceAll("[aiuo]", "e");
                 break;
             case 2:
                 // lirikBaru = lirik.replaceAll("[AIUEO]", "I");
-                lirikBaru = lirik.replaceAll("[aiueo]", "i");
+                lirikBaru = lirik.replaceAll("[aueo]", "i");
                 break;
             case 3:
                 // lirikBaru = lirik.replaceAll("[AIUEO]", "O");
-                lirikBaru = lirik.replaceAll("[aiueo]", "o");
+                lirikBaru = lirik.replaceAll("[aiue]", "o");
                 break;
             case 4:
                 // lirikBaru = lirik.replaceAll("[AIUEO]", "U");
-                lirikBaru = lirik.replaceAll("[aiueo]", "u");
+                lirikBaru = lirik.replaceAll("[aieo]", "u");
                 break;
 
             default:
@@ -33,19 +33,19 @@ public class Jurnal02 {
 
         switch (sisaLirik) {
             case 0:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "A");
+                lirikBaru = lirik.replaceAll("[IUEO]", "A");
                 break;
             case 1:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "E");
+                lirikBaru = lirik.replaceAll("[AIUO]", "E");
                 break;
             case 2:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "I");
+                lirikBaru = lirik.replaceAll("[AUEO]", "I");
                 break;
             case 3:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "O");
+                lirikBaru = lirik.replaceAll("[AIUE]", "O");
                 break;
             case 4:
-                lirikBaru = lirik.replaceAll("[AIUEO]", "U");
+                lirikBaru = lirik.replaceAll("[AIEO]", "U");
                 break;
                 
             default:
