@@ -12,7 +12,7 @@ public class TP01 {
 
     private static void printResultC(double fahrenheit) {
         double hasilCelcius = toCelcius(fahrenheit);
-        System.out.printf("%.2f", hasilCelcius);
+        System.out.printf("%.1f", hasilCelcius);
     }
     private static void printResultR(double fahrenheit) {
         double hasilReamur = toReamur(fahrenheit);
