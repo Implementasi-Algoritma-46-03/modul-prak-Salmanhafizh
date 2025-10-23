@@ -27,6 +27,8 @@ public class Jurnal02 {
                 break;
         }
 
+        
+
         switch (sisaLirik) {
             case 0:
                 lirikBaru = lirik.replaceAll("[AIUEO]", "A");
