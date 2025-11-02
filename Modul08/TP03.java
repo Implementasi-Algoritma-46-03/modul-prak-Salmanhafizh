@@ -1,16 +1,15 @@
+import java.util.Scanner;
+
 public class TP03 {
-    private static void sisiPersegi(int sisi) {
-        int luas = sisi * sisi;
-        System.out.print(luas);
-    }
-    
-
-
     public static void main(final String[] args) {
-        int sisi = 10;
-        int sisi2 = 20;
-        sisiPersegi(sisi);
-        System.out.print(" ");
-        sisiPersegi(sisi2);
+        Scanner scanner = new Scanner(System.in);
+        int hasil = 0;
+        int input = 0;
+        do {
+            input = scanner.nextInt();
+            hasil += input;
+        } while (input != 0);
+        System.out.println(hasil);
+        scanner.close();
     }
 }
