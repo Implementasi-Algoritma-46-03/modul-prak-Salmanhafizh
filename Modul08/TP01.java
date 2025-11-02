@@ -12,7 +12,8 @@ public class TP01 {
             nilaiAwal = nilaiAwal * 2;
             x += 15;
         } while (nilaiAwal < nilaiN);
-
+ 
+        
         System.out.println(x);
 
 

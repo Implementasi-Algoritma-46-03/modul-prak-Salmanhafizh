@@ -7,10 +7,14 @@ public class Jurnal03 {
 
         double volumeIsi = 3.14159 * r * r * t;
 
+        if (r < -1) {
+            return;
+        }
+        
         double persen = (volumeIsi / volume) * 100 ;
 
-        System.out.printf("%.2f %.2f %.1f", volume , volumeIsi, persen);
-        System.out.print("%");
+        System.out.printf("%.2f %.2f %.1f%%", volume , volumeIsi, persen);
+
 
     }
 
@@ -21,7 +25,6 @@ public class Jurnal03 {
         double ketinggian = scanner.nextDouble();
 
         volumeTabung(jari, tinggi, ketinggian);
-
 
         scanner.close();
     }

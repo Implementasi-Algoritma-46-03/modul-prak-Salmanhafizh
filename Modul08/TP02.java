@@ -4,6 +4,8 @@ public class TP02 {
 
     public static void main(final String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        
         int input = scanner.nextInt();
         int balik = 0;
 

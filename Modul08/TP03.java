@@ -5,6 +5,7 @@ public class TP03 {
         Scanner scanner = new Scanner(System.in);
         int hasil = 0;
         int input = 0;
+        
         do {
             input = scanner.nextInt();
             hasil += input;
