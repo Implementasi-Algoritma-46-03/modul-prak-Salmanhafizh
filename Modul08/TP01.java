@@ -13,10 +13,8 @@ public class TP01 {
             x += 15;
         } while (nilaiAwal < nilaiN);
  
-        
-        System.out.println(x);
 
-
+        System.out.println(x);  
 
         scanner.close();
     }
