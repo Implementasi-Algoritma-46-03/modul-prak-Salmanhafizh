@@ -32,8 +32,8 @@ public class TP02 {
         /*
          * cara itu ribet banget wehhh
          * String vocal = 'aiueo';
-         * if(int i = 0; i < panjangString; i++){
-         *   if(vocal.indexOf(kataString.chatAt(i) != -1)){
+         * for(int i = 0; i < panjangString; i++){
+         *   if(vocal.indexOf(kataString.charAt(i) != -1)){
          *      jumlah++;
          *   }    
          * }

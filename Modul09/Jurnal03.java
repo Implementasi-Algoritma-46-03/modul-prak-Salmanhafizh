@@ -18,6 +18,5 @@ public class Jurnal03 {
         }
 
         scanner.close();
-        // Kerjakan soalnya di sini
     }
 }
