@@ -12,6 +12,7 @@ public class Jurnal01 {
                 System.out.print(" ");
             }
             System.out.println();
+            
         }
         // Kerjakan soalnya di sini
 

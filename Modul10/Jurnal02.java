@@ -11,7 +11,8 @@ public class Jurnal02 {
             }
             System.out.println();
         }
-       scanner.close();
+        scanner.close();
+       
         // Kerjakan soalnya di sini
     }
 }
