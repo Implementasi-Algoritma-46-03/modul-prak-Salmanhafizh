@@ -11,7 +11,7 @@ public class TP01 {
         }
         int i = 1;
         for (String a : arisan) {
-            System.out.println("Bulan " + i + " : " + a);
+            System.out.println("Bulan " + i + ": " + a);
             i++;
         }
         scanner.close();
