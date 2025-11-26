@@ -6,6 +6,7 @@ public class TP01 {
                 System.out.print("*");
             }
             System.out.println();
+            
         }
 
     }
