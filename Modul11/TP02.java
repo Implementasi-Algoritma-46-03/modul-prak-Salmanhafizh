@@ -1,30 +1,30 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TP02 {
-
-    public static void main(final String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        // Baca ukuran array
         int inputan = scanner.nextInt();
-        int arrayAngka[] = new int[inputan];
-        for (int i = 0; i < inputan; i++) {
-            arrayAngka[i] = scanner.nextInt();
+        int[] arrayAngka = new int[inputan];
+
+        // Baca sisa baris sebagai string
+        scanner.nextLine(); // buang newline setelah angka pertama
+        String line = scanner.nextLine();
+        String[] parts = line.trim().split("\\s+");
+
+        int jumlahInput = parts.length; 
+        for (int i = 0; i < jumlahInput && i < inputan; i++) {
+            arrayAngka[i] = Integer.parseInt(parts[i]);
         }
 
-        for (int i = 0; i < inputan - 1; i++) {
-            for (int j = 0; j < inputan - i - 1; j++) {
-                if (arrayAngka[j] < arrayAngka[j + 1]) {
-                    int simpanan = arrayAngka[j];
-                    arrayAngka[j] = arrayAngka[j + 1];
-                    arrayAngka[j + 1] = simpanan;
-                }
-            }
+        Arrays.sort(arrayAngka, 0, jumlahInput);
+
+        for (int i = jumlahInput - 1; i >= 0; i--) {
+            System.out.print(arrayAngka[i] + " ");
         }
 
-        for (int a : arrayAngka) {
-            System.out.print(a + " ");
-        }
-        
         scanner.close();
-        // Kerjakan soalnya di sini
     }
 }
