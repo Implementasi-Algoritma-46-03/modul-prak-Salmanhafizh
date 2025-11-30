@@ -30,7 +30,11 @@ public class TP02 {
 
         for (int i = 0; i < angka; i++) {
             for (int j = 0; j < angka; j++) {
-                System.out.print(array2D3[i][j] + " ");
+                if ((j + 1) == angka) {
+                    System.out.print(array2D3[i][j]);
+                } else {
+                    System.out.print(array2D3[i][j] + " ");
+                }
             }
             System.out.println();
         }
