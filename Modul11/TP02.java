@@ -5,12 +5,10 @@ public class TP02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Baca ukuran array
         int inputan = scanner.nextInt();
         int[] arrayAngka = new int[inputan];
 
-        // Baca sisa baris sebagai string
-        scanner.nextLine(); // buang newline setelah angka pertama
+        scanner.nextLine();
         String line = scanner.nextLine();
         String[] parts = line.trim().split("\\s+");
 
