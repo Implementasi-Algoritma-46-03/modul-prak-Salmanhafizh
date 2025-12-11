@@ -66,10 +66,8 @@ public class Jurnal03 {
             }
 
             if (compareStrings(array[mid].toLowerCase(), kata.toLowerCase()) < 0) {
-                // kata lebih besar, geser ke kanan
                 low = mid + 1;
             } else {
-                // kata lebih kecil, geser ke kiri
                 high = mid - 1;
             }
         }

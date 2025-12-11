@@ -26,7 +26,7 @@ public class Jurnal01 {
             int j = i - 1;
 
             // geser elemen yang lebih besar ke kanan
-            while (j >= 0 && compareStrings(array[j], key) > 0) {
+            while (j >= 0 && compareStrings(array[j], key) < 0) {
                 array[j + 1] = array[j];
                 j--;
             }
